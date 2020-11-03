@@ -22,9 +22,14 @@ export default function BlogCard({ blog, isDark }) {
           <p class={isDark ? "small-dark small" : "small"}>
             {blog.description}
           </p>
-          <div class="go-corner">
+         
+           <h3 className={isDark ? "small-dark blog-url" : "blog-url"}>
+           {blog.url && <><b>Link:</b> {blog.url}</>}
+         </h3>
+         
+          {/* <div class="go-corner">
             <div class="go-arrow">→</div>
-          </div>
+          </div> */}
         </a>
       </div>
     </div>

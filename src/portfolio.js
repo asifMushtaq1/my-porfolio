@@ -7,23 +7,23 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Asif Mushtaq",
+  title: "Hi all, I'm Asif Mushtaq",
+  subTitle: emoji("I am a 23 years old Software Engineer 🚀, who loves to play with different technologies. My expertise are in React, React Native i started out as Front-End Developer but than i found love with Back-End and Devops and so the journey continues."),
+  resumeLink: "https://drive.google.com/drive/u/0/my-drive"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/asifMushtaq1",
+  linkedin: "https://www.linkedin.com/in/asif-mushtaq-5187b8114/",
+  gmail: "asifmushtaq829@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "https://github.com/asifMushtaq1"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -31,11 +31,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Integration of third party services such as Firebase / Node.js")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -63,36 +63,36 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "react native",
+      fontAwesomeClassname: "fas fa-mobile-alt"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "api integration",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "",
+      fontAwesomeClassname: ""
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "",
+      fontAwesomeClassname: ""
+    },
+    {
+      skillName: "",
+      fontAwesomeClassname: ""
     }
   ]
 };
@@ -103,24 +103,41 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Institute Of Management Sciences ",
+      logo: require("./assets/images/imsciencesLogo.jpg"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2015 - September 2019",
+      desc: "Received CHIEF MINISTER EDUCATIONAL ENDOWMENT FUND (CMEEF).",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Member of MEGATHON '16 ",
+        "Member of Official Cricket Team",
+        "Graduated with 2.93 CGPA",
+        "Thesis: Career Guidance",
+        "Career Guidance (Final Year Project) ",
+        "Career Guide is a Web-based application. This website is specifically targeting students that are graduating from schools & college. There is a large number of Students who have lack of Information and guidance to mentor them in the field where they can pursue their career. The software will provide a list, which contains all fields with maximum information to give a full idea about any field."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "The Peace School & College",
+      logo: require("./assets/images/peaceLogo.png"),
+      subHeader: "Higher Secondary School Certificate (HSSC)",
+      duration: "April 2013 - April 2015",
+      desc: "Studied Pre Engineering",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Graduated with A Grade",
+        "Member of official Cricket team.",
+        "played other games badminton,football."
+      ]
+    },
+    {
+      schoolName: "The Peace School & College",
+      logo: require("./assets/images/peaceLogo.png"),
+      subHeader: "Secondary School Certificate (SSC)",
+      duration: "April 2011 - April 2013",
+      desc: "Studied Computer Science, Physics, Chemistry, Mathematics ",
+      descBullets: [
+        "Graduated with A+ Grade",
+        "Member of official Cricket team."
       ]
     }
   ]
@@ -136,7 +153,7 @@ const techStack = {
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Api Integration",
       progressPercentage: "70%"
     },
     {
@@ -153,30 +170,25 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "React / React Native application developer",
+      company: "Linknbit",
+      companylogo: require("./assets/images/linknbitLogo.png"),
+      date: "Sep 2019 – Present",
+      desc: "Working for this Software Development and IT Solutions Agency. My main roles includes developing Web Applications and Hybrid Mobile Applications.",
+     
+    },
+    {
+      role: "React / React Native application developer",
+      company: "Fiverr",
+      companylogo: require("./assets/images/fiverrLogo.png"),
+      date: "June 2020 – Oct 2020",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Managed  projects frontend from start to finish ",
+        "Done 3 projects of building frontend of native apps.",
+        "Translated requirements into polished, high-level designs"
+       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+   
   ]
 };
 
@@ -185,7 +197,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "asifmushtaq1", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -194,14 +206,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      name: "Global Aviation Solutions (Currently Involved)",
       link: "http://saayahealth.com/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      name: "Classified Ads (same as OLX Pakistan)  (Currently Involved)",
       link: "http://nextu.se/"
     }
   ]
@@ -248,20 +260,81 @@ const achievementSection = {
 
 const blogSection = {
 
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  title: "Projects (14)",
+  // subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: null,
+      title: "Global Aviation Solution",    
+      description: "GAS is a  Web-based application for aviation management  .Operator can create permit of incoming flights, Admin can monitor flight details ,permit Apllication ,flight route ,reject or accept permit ,create roles end to end system chat.worked at building the frontend and flow of application with mock server using fuse theme "
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+      url: null,
+      title: "Classified Ads",    
+      description: "Ads posting website same functionalities  as olx pakistan working with frontend and api integration (currently involved)"
+    },
+    {
+      url: null,
+      title: "Dum-Dashboard",    
+      description: "Modeling agency Dashboard for Fashion designers and marketers.admin as  approves users, add people, and hire models at will."
+    },
+    {
+      url: null,
+      title: "Coupon-sahl-dashboard",    
+      description: "Coupons Dashboard for shopping.admin can create,edit,delete coupons and stores. "
+    },
+    {
+      url: "https://play.google.com/store/apps/details?id=com.coupon_sahl_app",
+      title: "Coupon-sahl-app ",    
+      description: "Coupon sahl app for shopping.user can register via  social media links,serach ,share, buy a coupon using coupon store link. "
+    },
+    {
+      url: null,
+      title: "Yugen-app ",    
+      description: "Yugen app for streaming live games.user can register, create profile ,post,like post ,share post, comment post.user can view live streams,teams,players. worked for making frontend of screens and apiintegration.  "
+    },
+    {
+      url: "https://play.google.com/store/apps/details?id=com.zesttygroup.bezestty",
+      title: "be-zestty-app",    
+      description: "Food ordering app.worked for making frontend of screens."
+    },
+    {
+      url: "https://play.google.com/store/apps/details?id=com.dum.co",
+      title: "Dynasty Unleash Models",    
+      description: "Modeling agency App for Fashion designers and marketers.Users can register, create profile, add people, and hire models at will. "
+    },
+    {
+      url: "https://expo.io/@sufyan/projects/dokkani",
+      title: "Dokanni.co",    
+      description: "Ecommerce Mobile App , where people can buy things belonging to different categories.User can register, select products, add products to cart.User add products to wish list and checkout"
+    },
+    {
+      url: null,
+      title: "Football-buzz",    
+      description: "Live match updates Mobile App , where user can view live scores,statistics,standings of football match. user can also view the upcomimg matches.worked for making frontend of screens."
+    },
+    {
+      url: "https://expo.io/@asifmushtaq1/projects/myfirst-app",
+      title: "Suha - Multipurpose Ecommerce Mobile Template ",    
+      description: "A  e-commerce shop template build just for practicing react native for building the frontend design."
+    },
+    {
+      url: "https://play.google.com/store/apps/details?id=com.panacsystems.odikko",
+      title: "Odikko - Shopping Simplified",    
+      description: "Oddikko app for Food Ordering.people can buy things belonging to different categories.User can register, select products, add products to cart.User add products to wish list and checkout. "
+    },
+    {
+      url: null,
+      title: "Ziffy-app",    
+      description: "Ziffy app for Food Ordering.people can buy things belonging to different categories.User can register, select products, add products to cart.User add products to wish list and checkout."
+    },
+    {
+      url: null,
+      title: "Manbids",    
+      description: "services posting Mobile App , where people can post jobs belonging to different categories.User can register, view and bids on jobs.Worked re-designed with modern features & coded with the latest technology."
+    },
+  
   ]
 };
 
@@ -293,9 +366,9 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Discuss a project or wanna hire? My Inbox is open for all.",
+  number: "+92-3355272943",
+  email_address: "asifmushtaq829@gmail.com"
 };
 
 //Twitter Section

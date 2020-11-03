@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import "./StartupProjects.css";
+import "../workExperience/WorkExperience.css";
 import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
@@ -32,7 +33,8 @@ export default function StartupProject() {
                     className="saaya-health-div"
                     onClick={() => openProjectInNewWindow(project.link)}
                   >
-                    <img alt="Saad Working" src={project.image}></img>
+                    {/* <img alt="Saad Working" src={project.image}></img> */}
+                    <h5 className={isDark ? "experience-text-role dark-mode-text":"experience-text-role"}>{project.name}</h5>
                   </div>
                 );
               })}
