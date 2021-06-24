@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Asif Mushtaq",
   title: "Hi all, I'm Asif Mushtaq",
-  subTitle: emoji("I am a 23 years old Software Engineer 🚀, who loves to play with different technologies. My expertise are in React, React Native i started out as Front-End Developer but than i found love with Back-End and Devops and so the journey continues."),
-  resumeLink: "https://drive.google.com/drive/u/0/my-drive"
+  subTitle: emoji("Hi, I am Asif Mushtaq, a Software Engineering graduate with passion for Development. I have 1-2 years of experience in intermediate and complex level projects."),
+  resumeLink: "https://docs.google.com/document/d/12Ii6x9-HFMku_VwbCgk2iJ1bt3BMuPlNdvtD3DbJn1s/edit"
 };
 
 // Your Social Media Link
@@ -117,29 +117,6 @@ const educationInfo = {
         "Career Guide is a Web-based application. This website is specifically targeting students that are graduating from schools & college. There is a large number of Students who have lack of Information and guidance to mentor them in the field where they can pursue their career. The software will provide a list, which contains all fields with maximum information to give a full idea about any field."
       ]
     },
-    {
-      schoolName: "The Peace School & College",
-      logo: require("./assets/images/peaceLogo.png"),
-      subHeader: "Higher Secondary School Certificate (HSSC)",
-      duration: "April 2013 - April 2015",
-      desc: "Studied Pre Engineering",
-      descBullets: [
-        "Graduated with A Grade",
-        "Member of official Cricket team.",
-        "played other games badminton,football."
-      ]
-    },
-    {
-      schoolName: "The Peace School & College",
-      logo: require("./assets/images/peaceLogo.png"),
-      subHeader: "Secondary School Certificate (SSC)",
-      duration: "April 2011 - April 2013",
-      desc: "Studied Computer Science, Physics, Chemistry, Mathematics ",
-      descBullets: [
-        "Graduated with A+ Grade",
-        "Member of official Cricket team."
-      ]
-    }
   ]
 }
 
@@ -148,17 +125,18 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
+
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Frontend/ReactJs",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Api Integration",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ]
 };
@@ -170,23 +148,12 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "React / React Native application developer",
+      role: "Full Stack Developer",
       company: "Linknbit",
       companylogo: require("./assets/images/linknbitLogo.png"),
       date: "Sep 2019 – Present",
-      desc: "Working for this Software Development and IT Solutions Agency. My main roles includes developing Web Applications and Hybrid Mobile Applications.",
+      desc: "Working for this  Software Development and IT Solutions Agency. My main roles includes development of new web and mobile based user interface,working closely with CTO to understand the scope of project, what ways to adopt in developing the project and then work on it.Working and collaborating with the rest of the engineering team, assigning task and taking daily reports. working with product team and graphic designer, documentation regarding project management.Responsible for API design and development of RESTful Services for the enterprise product in the business.Responsible for all the requirements/functionalities working flawlessly and reporting to manager.",
      
-    },
-    {
-      role: "React / React Native application developer",
-      company: "Fiverr",
-      companylogo: require("./assets/images/fiverrLogo.png"),
-      date: "June 2020 – Oct 2020",
-      descBullets: [
-        "Managed  projects frontend from start to finish ",
-        "Done 3 projects of building frontend of native apps.",
-        "Translated requirements into polished, high-level designs"
-       ]
     },
    
   ]
@@ -209,12 +176,8 @@ const bigProjects = {
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      name: "Global Aviation Solutions (Currently Involved)",
-      link: "http://saayahealth.com/"
-    },
-    {
-      name: "Classified Ads (same as OLX Pakistan)  (Currently Involved)",
-      link: "http://nextu.se/"
+      name: "Misooq (same as OLX Pakistan)  (Currently Involved)",
+      link: "https://www.misooq.com"
     }
   ]
 };
@@ -260,81 +223,15 @@ const achievementSection = {
 
 const blogSection = {
 
-  title: "Projects (14)",
+  title: "Big Projects",
   // subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [
     {
-      url: null,
-      title: "Global Aviation Solution",    
-      description: "GAS is a  Web-based application for aviation management  .Operator can create permit of incoming flights, Admin can monitor flight details ,permit Apllication ,flight route ,reject or accept permit ,create roles end to end system chat.worked at building the frontend and flow of application with mock server using fuse theme "
+      url: "https://www.misooq.com",
+      title: "Misooq",    
+      description: "The free online marketplace website to buy and sell locally. MISOOQ assures you of a great shopping experience where you can Buy and Sell, faster load time & wide selection across categories"
     },
-    {
-      url: null,
-      title: "Classified Ads",    
-      description: "Ads posting website same functionalities  as olx pakistan working with frontend and api integration (currently involved)"
-    },
-    {
-      url: null,
-      title: "Dum-Dashboard",    
-      description: "Modeling agency Dashboard for Fashion designers and marketers.admin as  approves users, add people, and hire models at will."
-    },
-    {
-      url: null,
-      title: "Coupon-sahl-dashboard",    
-      description: "Coupons Dashboard for shopping.admin can create,edit,delete coupons and stores. "
-    },
-    {
-      url: "https://play.google.com/store/apps/details?id=com.coupon_sahl_app",
-      title: "Coupon-sahl-app ",    
-      description: "Coupon sahl app for shopping.user can register via  social media links,serach ,share, buy a coupon using coupon store link. "
-    },
-    {
-      url: null,
-      title: "Yugen-app ",    
-      description: "Yugen app for streaming live games.user can register, create profile ,post,like post ,share post, comment post.user can view live streams,teams,players. worked for making frontend of screens and apiintegration.  "
-    },
-    {
-      url: "https://play.google.com/store/apps/details?id=com.zesttygroup.bezestty",
-      title: "be-zestty-app",    
-      description: "Food ordering app.worked for making frontend of screens."
-    },
-    {
-      url: "https://play.google.com/store/apps/details?id=com.dum.co",
-      title: "Dynasty Unleash Models",    
-      description: "Modeling agency App for Fashion designers and marketers.Users can register, create profile, add people, and hire models at will. "
-    },
-    {
-      url: "https://expo.io/@sufyan/projects/dokkani",
-      title: "Dokanni.co",    
-      description: "Ecommerce Mobile App , where people can buy things belonging to different categories.User can register, select products, add products to cart.User add products to wish list and checkout"
-    },
-    {
-      url: null,
-      title: "Football-buzz",    
-      description: "Live match updates Mobile App , where user can view live scores,statistics,standings of football match. user can also view the upcomimg matches.worked for making frontend of screens."
-    },
-    {
-      url: "https://expo.io/@asifmushtaq1/projects/myfirst-app",
-      title: "Suha - Multipurpose Ecommerce Mobile Template ",    
-      description: "A  e-commerce shop template build just for practicing react native for building the frontend design."
-    },
-    {
-      url: "https://play.google.com/store/apps/details?id=com.panacsystems.odikko",
-      title: "Odikko - Shopping Simplified",    
-      description: "Oddikko app for Food Ordering.people can buy things belonging to different categories.User can register, select products, add products to cart.User add products to wish list and checkout. "
-    },
-    {
-      url: null,
-      title: "Ziffy-app",    
-      description: "Ziffy app for Food Ordering.people can buy things belonging to different categories.User can register, select products, add products to cart.User add products to wish list and checkout."
-    },
-    {
-      url: null,
-      title: "Manbids",    
-      description: "services posting Mobile App , where people can post jobs belonging to different categories.User can register, view and bids on jobs.Worked re-designed with modern features & coded with the latest technology."
-    },
-  
   ]
 };
 
